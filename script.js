@@ -9,7 +9,7 @@ $(document).ready(function(){
 			var latitude  = currentPosition.coords.latitude;
 			var longitude = currentPosition.coords.longitude;
 			//console.log(currentPosition);
-			var url = 'http://api.apixu.com/v1/current.json?key=05fc2bf7db3b49fbbb964747191102&q=';
+			var url = 'https://api.apixu.com/v1/current.json?key=05fc2bf7db3b49fbbb964747191102&q=';
 			$.getJSON(url + latitude + ',' +longitude, function(data) {
 				
 				var data = JSON.stringify(data);
