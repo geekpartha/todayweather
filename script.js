@@ -32,7 +32,7 @@ $(document).ready(function(){
 				$('#weather').html(city + ', ' + state + ', ' + country);
 				
 				//Day - Night images//
-				var nightTimeStart = 19;
+				var nightTimeStart = 18;
 				var nightTimeEnd = 6;
 				var current = new Date();
 				var currentHour = current.getHours();
