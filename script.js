@@ -44,7 +44,7 @@ $(document).ready(function(){
 				} else {
 				   $('.descrb').html("Good Day");
 				   $('.grey-jumbo').css({
-				   	backgroundImage: 'url(https://cdn.pixabay.com/photo/2017/11/04/08/14/tree-2916763_960_720.jpg)'
+				   	backgroundImage: 'url(https://cdn.pixabay.com/photo/2017/10/29/15/58/yorkshire-2900064_960_720.jpg)'
 				   })
 				}
 
